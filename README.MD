@@ -18,7 +18,8 @@ This repository implements a Lane Detection Algorithm for Self-Driving Cars, com
 
 ## Installation & Usage
 
-1. Download the IPYNB file.
+1. Download the IPYNB file and Pre-Trained Model "best.pth":
+Place "best.pth" together with "model.ipynb" to your directory.
 
 2. Connect it to your Google Drive:
 
@@ -27,12 +28,15 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-3. Edit dataset file path in Yolo Object Detection and Lane Detection
+3. Edit file path for Pre-Trained Model, Yolo Object Detection, and Lane Detection
 ```bash
-//Yolo Object Detection
+// Pre-Trained Model
+model.load_state_dict(torch.load('/content/drive/path/to/best.pth')) #pretrained model
+
+// Yolo Object Detection
 videos_directory = "/content/drive/path/to/your/datasets"
 
-//Lane Detection
+// Lane Detection
 path = (f"/content/drive/path/to/your/datasets/runs/detect/all_predictions/predict/{video_file}")
 path = (f"/content/drive/path/to/your/datasets/runs/detect/all_predictions/predict{counter}/{video_file}")
 out = cv2.VideoWriter(f"/content/drive/path/to/output/directory/{video_file}",cv2.VideoWriter_fourcc('M','J','P','G'), 30, (frame_width,frame_height))
