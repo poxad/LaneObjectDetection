@@ -60,3 +60,6 @@ Results can be found in the results folder in the main directory.
 - The current version only works with specific road layouts, where the separator of a 2-way road should be yellow. Otherwise, the model will detect roads in the opposite way as drivable roads.
 
 Feel free to raise issues or contribute to the project by creating pull requests.
+
+## Guide video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/tIPZ5z-whF4/0.jpg)](https://www.youtube.com/watch?v=tIPZ5z-whF4)
