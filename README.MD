@@ -42,6 +42,9 @@ out = cv2.VideoWriter(f"/content/drive/path/to/output/directory/{video_file}",cv
 
 4. Runtime -> Run all.
 
+## Results:
+Results can be found in the results folder in the main directory.
+
 ## Acknowledgments
 
 - [YOLOv8](https://docs.ultralytics.com/)
