@@ -1,5 +1,8 @@
 # Lane Detection Algorithm for Self-Driving Cars
 
+https://github.com/user-attachments/assets/2e073d32-caa0-4e65-841b-ebe70e3a2767
+
+
 ## Overview
 
 This repository implements a Lane Detection Algorithm for Self-Driving Cars, combining the power of YOLOv8 for object detection and TwinLiteNet for lane detection.
